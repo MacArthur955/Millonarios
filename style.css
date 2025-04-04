@@ -13,7 +13,6 @@ body {
 img {
     max-width: 100%;
     border-radius: 5px;
-    width: 300px;
 }
 
 #container {
@@ -60,12 +59,12 @@ img {
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
 
-    width: 90vw;
+    width: 95vw;
 
     background-color: #072864;
     font-size: 4vh;
     border-radius: 5px;
-    padding: 40vh 0;
+    padding: 45vh 0;
 }
 
 .option {

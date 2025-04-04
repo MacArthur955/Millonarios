@@ -1,39 +1,39 @@
 const questions = [
     {
-        "question": ["W jakim kraju byłaś w Polsce", null],
+        "question": ["¿En qué país estuviste en Polonia?", null],
         "options": [
-            ["W Polsce", "poland"],
-            ["W Afryce", "africa"],
-            ["Młotek", "hammer"],
-            ["W Meksyku", "mexico"]
+            ["En Polonia", "poland"],
+            ["En África", "africa"],
+            ["Martillo", "hammer"],
+            ["En México", "mexico"]
         ],
         "answer": 0,
         "money": 100
     },
     {
-        "question": ["Jak poprawnie trzymać gardę", null],
+        "question": ["¿Cómo sostener correctamente la guardia?", null],
         "options": [
-            ["Tak o", "happy"],
-            ["Tak o", "back"],
-            ["Tak o", "profesional"],
-            ["Czy tak o", "hero"]
+            ["Así", "happy"],
+            ["Así", "back"],
+            ["Así", "profesional"],
+            ["¿Así?", "hero"]
         ],
         "answer": 2,
         "money": 200
     },
     {
-        "question": ["Gdzie kiedyś była stolica Polski?", null],
+        "question": ["¿Dónde estuvo antes la capital de Polonia?", null],
         "options": [
-            ["W Gdańsku", "gdansk"],
-            ["W Krakowie", "krakow"],
-            ["W Limie", "lima"],
-            ["Na księżycu", "moon"]
+            ["En Gdańsk", "gdansk"],
+            ["En Cracovia", "krakow"],
+            ["En Lima", "lima"],
+            ["En la luna", "moon"]
         ],
         "answer": 1,
         "money": 500
     },
     {
-        "question": ["Ile duchów spotkaliśmy w zamku?", "castle"],
+        "question": ["¿Cuántos fantasmas encontramos en el castillo?", "castle"],
         "options": [
             ["4", null],
             ["5", null],
@@ -44,29 +44,29 @@ const questions = [
         "money": 800
     },
     {
-        "question": ["Kim jest Janek z zawodu?", "john"],
+        "question": ["¿Cuál es la profesión de Janek?", "john"],
         "options": [
-            ["Farmaceutą", null],
-            ["Nurkiem", null],
-            ["Reżyserem filmowym", null],
-            ["Rehabilitantem", null]
+            ["Farmacéutico", null],
+            ["Buceador", null],
+            ["Director de cine", null],
+            ["Fisioterapeuta", null]
         ],
         "answer": 3,
         "money": 1200
     },
     {
-        "question": ["Co to za miejsce?", "glogow"],
+        "question": ["¿Qué es este lugar?", "glogow"],
         "options": [
-            ["Kraków, obok baru z Hogwartu", null],
-            ["Miejscowość mojej babci", null],
-            ["Miasto mojego dzieciństwa", null],
+            ["Cracovia, al lado del bar de Hogwarts", null],
+            ["El pueblo de mi abuela", null],
+            ["La ciudad de mi infancia", null],
             ["Toszowice", null]
         ],
         "answer": 2,
         "money": 2000
     },
     {
-        "question": ["Który z tych obrazów wisi na ścianie na schodach jak się do mnie whcodzi do domu?", null],
+        "question": ["¿Cuál de estos cuadros cuelga en la pared de la escalera al entrar a mi casa?", null],
         "options": [
             [null, "mama"],
             [null, "food"],
@@ -77,7 +77,7 @@ const questions = [
         "money": 3000
     },
     {
-        "question": ["Która z tych książek opowiada o karierze wielkiego oportunisty?", null],
+        "question": ["¿Cuál de estos libros trata sobre la carrera de un gran oportunista?", null],
         "options": [
             [null, "man"],
             [null, "brain"],
@@ -88,10 +88,10 @@ const questions = [
         "money": 4000
     },
     {
-        "question": ["Jak się nazywa sklep w którym kupiliśmy grejpfruta?", "tedi"],
+        "question": ["¿Cómo se llama la tienda donde compramos la toronja?", "tedi"],
         "options": [
             ["TEDI", null],
-            ["Koniczyna", null],
+            ["Stokrotka", null],
             ["Burak", null],
             ["Buty Stefana", null]
         ],
@@ -99,29 +99,29 @@ const questions = [
         "money": 7000
     },
     {
-        "question": ["Jakiej kostelacji gwiezdnej się nauczyłaś w Polsce?", null],
+        "question": ["¿Qué constelación aprendiste en Polonia?", null],
         "options": [
-            ["Wielka Niedźwiedzica", "ursa"],
-            ["Orion", "orion"],
-            ["Byk", "bull"],
-            ["Bliźnięta", "twins"]
+            ["Osa Mayor", "ursa"],
+            ["Orión", "orion"],
+            ["Tauro", "bull"],
+            ["Géminis", "twins"]
         ],
         "answer": 0,
-        "money": 10_000
+        "money": 10000
     },
     {
-        "question": ["Gdzie na wakacje leci mój tata ze swoją żoną?", "dad"],
+        "question": ["¿A dónde va de vacaciones mi papá con su esposa?", "dad"],
         "options": [
-            ["Na Bahamy", null],
-            ["Do Peru", null],
-            ["Na Maltę", null],
-            ["Do Anglii", null]
+            ["A las Bahamas", null],
+            ["A Perú", null],
+            ["A Malta", null],
+            ["A Inglaterra", null]
         ],
         "answer": 2,
-        "money": 18_000
+        "money": 18000
     },
     {
-        "question": ["Ile kosztuje butelka mleka w Polsce?", "milk"],
+        "question": ["¿Cuánto cuesta una botella de leche en Polonia?", "milk"],
         "options": [
             ["22 zł", null],
             ["4 zł", null],
@@ -129,10 +129,10 @@ const questions = [
             ["11 zł", null]
         ],
         "answer": 1,
-        "money": 30_000
+        "money": 30000
     },
     {
-        "question": ["Który obraz otwierał sekret?", null],
+        "question": ["¿Cuál cuadro revelaba el secreto?", null],
         "options": [
             ["Desmond Doss", "desmond"],
             ["Neil Armstrong", "armstrong"],
@@ -140,21 +140,21 @@ const questions = [
             ["Michael Faraday", "michael"]
         ],
         "answer": 3,
-        "money": 50_000
+        "money": 50000
     },
     {
-        "question": ["Gdzie moja babcia robi ozdoby?", "grandma"],
+        "question": ["¿Dónde hace decoraciones mi abuela?", "grandma"],
         "options": [
-            ["Na rehabilitacji", null],
-            ["U swojej przyjaciółki", null],
-            ["W klubie emerytów", null],
-            ["U swojego chłopaka", null]
+            ["En rehabilitación", null],
+            ["En casa de su amiga", null],
+            ["En el club de jubilados", null],
+            ["En casa de su novio", null]
         ],
-        "answer": 3,
-        "money": 70_000
+        "answer": 2,
+        "money": 70000
     },
     {
-        "question": ["Który z tych muzyków był polakiem?", null],
+        "question": ["¿Cuál de estos músicos era polaco?", null],
         "options": [
             [null, "beethoven"],
             [null, "mozart"],
@@ -162,21 +162,32 @@ const questions = [
             [null, "schumann"]
         ],
         "answer": 2,
-        "money": 100_000
+        "money": 100000
     },
     {
-        "question": ["Na ognisku Adam i Wojtek opowiadali gdzie się poznali. Pamiętasz gdzie?", "fire"],
+        "question": ["¿Cuántos patos tengo en casa?", "duck"],
         "options": [
-            ["W szkole podstawowej", null],
-            ["W wojsku", null],
-            ["W pracy", null],
-            ["Na studiach", null]
+            ["8", null],
+            ["10", null],
+            ["19", null],
+            ["32", null]
+        ],
+        "answer": 2,
+        "money": 100000
+    },
+    {
+        "question": ["En la fogata, Adam y Wojtek contaron dónde se conocieron. ¿Lo recuerdas?", "fire"],
+        "options": [
+            ["En la escuela primaria", null],
+            ["En el ejército", null],
+            ["En el trabajo", null],
+            ["En la universidad", null]
         ],
         "answer": 0,
-        "money": 300_000
+        "money": 300000
     },
     {
-        "question": ["Które drzewo jest świerkiem rosnącym koło mojego domu?", "fire"],
+        "question": ["¿Cuál de estos árboles es el abeto que crece junto a mi casa?", "fire"],
         "options": [
             [null, "x"],
             [null, "home"],
@@ -184,6 +195,6 @@ const questions = [
             [null, "z"]
         ],
         "answer": 1,
-        "money": 1_000_000
+        "money": 1000000
     },
-]
+];
